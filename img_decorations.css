@@ -1,4 +1,4 @@
-/* CSS Code snippets for making images... 'pop'. I've changed something... */
+/* CSS for making images... 'pop'. */
 
 /* Shadow pop: A little something for a shadow on the bottom of the img */
 img.pop{
@@ -6,8 +6,8 @@ img.pop{
 	background: radial-gradient(closest-side at 50% 95%, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 90%);
 }
 
-/* Image hover: Pure css img hover effect */
-img.hover{
+/* Shadow suspend: Pure css image hovering/suspended-in-the-air effect. */
+img.suspend{
 	padding-bottom:10px; 
 	padding:0 5px 60px; background: radial-gradient(closest-side at 50% 95%, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 80%);
 }
