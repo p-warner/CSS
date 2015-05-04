@@ -1,0 +1,13 @@
+/* CSS Code snippets */
+
+/* Shadow pop: A little something for a shadow on the bottom of the img */
+img.pop{
+	padding-bottom:10px; 
+	background: radial-gradient(closest-side at 50% 95%, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 90%);
+}
+
+/* Image hover: Pure css img hover effect */
+img.hover{
+	padding-bottom:10px; 
+	padding:0 5px 60px; background: radial-gradient(closest-side at 50% 95%, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 80%);
+}
