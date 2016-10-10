@@ -1,13 +1,17 @@
-/* CSS for making images... 'pop'. */
-
 /* Shadow pop: A little something for a shadow on the bottom of the img */
 img.pop{
-	padding-bottom:10px; 
+	padding-bottom:10px;
 	background: radial-gradient(closest-side at 50% 95%, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 90%);
 }
 
 /* Shadow suspend: Pure css image hovering/suspended-in-the-air effect. */
 img.suspend{
-	padding-bottom:10px; 
+	padding-bottom:10px;
 	padding:0 5px 60px; background: radial-gradient(closest-side at 50% 95%, rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 80%);
 }
+
+/* Lexicographical ordering of nested lists. */
+#content ol { counter-reset: item }
+#content li { display: block }
+#content li:before { content: counters(item, ".") ". "; counter-increment: item }
+
